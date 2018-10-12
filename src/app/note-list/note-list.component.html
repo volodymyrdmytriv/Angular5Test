@@ -1,0 +1,5 @@
+<div class="container-fluid text-center pb-5">
+  <div class="row">
+    <app-note class="col-4" *ngFor="let note of notes; let i=index" [note]="note" (onNoteRemove)="removeNote(i)"></app-note>
+  </div>
+</div>

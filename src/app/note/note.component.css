@@ -1,0 +1,17 @@
+.note {
+    margin-top: 1.5rem;
+}
+
+.note-text {
+    border: 1px solid black;
+}
+
+.note-remove {
+    text-align: left;
+}
+
+.note-remove-icon {
+    color: red;
+    cursor: pointer;
+    cursor: pointer;
+}

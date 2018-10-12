@@ -1,0 +1,7 @@
+<div class="note">
+  <div class="note-block">
+    <div class="note-remove"><span class="note-remove-icon" (click)="removeNote()">X</span></div>
+    <input class="form-control note-text" [(ngModel)]="note.title" (click)="doEdit()" [(readonly)]="readonly" >
+    <input class="form-control note-text" [(ngModel)]="note.body" (click)="doEdit()" [(readonly)]="readonly" >
+  </div>
+</div>
